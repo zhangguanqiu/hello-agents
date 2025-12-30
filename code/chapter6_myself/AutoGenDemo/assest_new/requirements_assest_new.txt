@@ -1,0 +1,23 @@
+# AutoGen 动态智能体团队 API 依赖
+
+# FastAPI 和 Web 服务
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+
+# AutoGen
+autogen-agentchat>=0.2.0
+autogen-ext>=0.2.0
+
+# OpenAI 和 LLM
+openai>=1.0.0
+
+# 环境变量管理
+python-dotenv>=1.0.0
+
+# HTTP 客户端（用于测试）
+requests>=2.31.0
+
+# 可选：日志和监控
+# loguru>=0.7.0
+# prometheus-client>=0.19.0
